@@ -1,0 +1,20 @@
+Commands:
+make all - Build a6_tester_all.c file
+make basic - Build a6_tester_basic.c file
+make load_all - Build a6_tester_load_all.c
+make tester_read_observations - Build a6_tester_read_observations.c
+
+To run 'all' test, run command:
+./all
+
+To run 'basic' test, run command:
+./basic
+
+To run 'load_all' test, run command:
+./load_all
+
+To run 'tester_read_observations' test, run command:
+./tester_read_observations
+
+To run memory leak check test program, run command:
+make valgrind_test_all
